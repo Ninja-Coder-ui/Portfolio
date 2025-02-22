@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Raj - Personal Portfolio</title>
+  <title>Ninja Coder</title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Raj Raushan</title>
@@ -49,7 +49,7 @@
                     <li><a id="hero-link" href="#hero">Home</a></li>
                     <li><a id="about-link" href="#about">About</a></li>
                     <li><a id="services-link" href="#services">Services</a></li>
-                    <li><a id="portfolio-link" href="#portfolio">Portfolio</a></li>
+                    <li><a id="portfolio-link" href="#portfolio">Projects</a></li>
                     <!-- <li><a id="client-link" href="#client">Clients</a></li> -->
                     <li><a id="contact-link" href="#contact">Contact</a></li>
                 </ul>
@@ -82,8 +82,8 @@
         <div class="row left-xs left-sm left-md left-lg">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <div class="about-text">
-                    <h2>Hi, I'm <span class="accent-text">Raj Raushan</span></h2>
-                    <p>I’m currently a student at CMR University, pursuing a B. Tech in Computer Science. Alongside my studies, I work as a web developer and software engineer, building both practical and innovative solutions. I’m passionate about programming, web development, and continually exploring new technologies. Outside of work and studies, I enjoy learning about animals and spending time outdoors, especially camping.
+                    <h2>About <span class="accent-text">My Self</span></h2>
+                    <p>I’m currently a student at Arunodaya University, pursuing a B.Sc in Information Information. Alongside my studies, I work as a web developer and software engineer, building both practical and innovative solutions. I’m passionate about programming, web development, and continually exploring new technologies. Outside of work and studies, I enjoy learning about animals and spending time outdoors, especially camping.
                     <br><br>
                     "I believe that knowledge has no limits; it is an endless journey that continues infinitely as long as we live."
                     </p>
@@ -209,7 +209,7 @@
 <section id="portfolio">
     <div class="container">
         <div class="section-title">
-            <h1>My <span class="accent-text">Portfolio</span></h1>
+            <h1>My <span class="accent-text">Projects</span></h1>
         </div>
         
         <div id="filter-btn" class="button-group">
@@ -228,7 +228,7 @@
         <div class="img-grid">
             <div class="img-container graph" data-category="graph">
                 <img src="img/pexels-pixabay-39284.jpg">
-                <div class="img-overlay popup-gallery" href="http://www.bricho.com/demo/Raj Raushan/with-particles/img/portfolio-img.jpeg">
+                <div class="img-overlay popup-gallery" a href="http://www.bricho.com/demo/Raj Raushan/with-particles/img/portfolio-img.jpeg">
                     <div class="img-overlay-text">
                         <p></p>
                         <h3>Blog Page</h3>
@@ -352,8 +352,8 @@
                             <p>Call</p>
                             <p>+91-7631796390</p>
                         </div>
-                    </div>
-                    
+                    </div>  
+        
                     <div class="contact-block">
                         <i class="far fa-envelope"></i>
                         <div class="contact-text">
@@ -366,30 +366,33 @@
                         <i class="fas fa-location-arrow"></i>
                         <div class="contact-text">
                             <p>Address</p>
-                            <p>Chagallati, Bengaluru, Karnataka,<BR>
-                                India - 562149</p>
+                            <p>Shadipur, New Delhi, India - 110008</p>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                <form id="contact-form" onsubmit="submitForm(); return false;">
+                <form id="contact-form" onsubmit="submitForm(); return false;" action="https://getform.io/f/awnqqmwb" method="post" enctype="multipart/form-data" name="EmailForm">
                     <div class="field">
                         Name<br>
-                        <input type="text" id="name" placeholder="enter your name" required>
+                        <input type="text" id="name" placeholder="Enter your name" name="Name"required>
                     </div>
                     <div class="field">
                         Email<br>
-                        <input type="text" id="email" placeholder="abc@gmail.com" required>
+                        <input type="text" id="email" placeholder="abc@gmail.com" name="Email"required>
                     </div>
                     <div class="field">
-                        Subject<br>
-                        <input type="text" id="subject" placeholder="your subject" required>
+                        Contact<br>
+                        <input type="tel" id="contact" placeholder="9999999999" name="Contact" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
                     </div>
                     <div class="field">
-                        Message<br>
-                        <textarea id="message" rows="10" cols="75"  placeholder="Type your message here" required></textarea>
+                        Requirments<br>
+                        <input type="text" id="subject" placeholder="your are looking for" name="Requirments"required>
+                    </div>
+                    <div class="field">
+                        Describe<br>
+                        <textarea id="message" rows="10" cols="75"  placeholder="Describe your Requirments and details about Project" name="Discription"required></textarea>
                     </div>
                     <div class="field">
                         <input type="submit" id="contact-submit" value="Submit Form"><span id="status"></span>

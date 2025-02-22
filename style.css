@@ -290,16 +290,16 @@ top: 50px; }
   transform: translate(-50%, -50%); }
   .hero-content h1 {
     font-size: 50px;
-    color: #b2b997;
+    color: #ae8c42;
     margin-top: 30px;
     margin-bottom: 10px; }
   .hero-content h2 {
     font-size: 30px;
-    color: #bfbfbf; }
+    color: #b89c9c; }
   .hero-content .download {
-    color: #bfbfbf;
+    color: #9a6161;
     background: none;
-    border: 1px #E52E2D solid;
+    border: 1px #277258 solid;
     border-radius: 1000px;
     padding: 10px;
     -webkit-transition: border-color 0.3s ease;
@@ -307,16 +307,16 @@ top: 50px; }
     transition: border-color 0.3s ease;
     cursor: pointer; }
     .hero-content .download a {
-      color: #bfbfbf;
+      color: #986161;
       font-size: 16px; }
     .hero-content .download:hover {
-      border-color: #bfbfbf; }
+      border-color: #7056e5; }
 
 .hero-content img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  border: 3px #E52E2D solid; }
+  border: 3px #dc3737 solid; }
   @media screen and (max-width: 768px) {
     .hero-content img {
       width: 200px;
@@ -535,12 +535,12 @@ top: 50px; }
 
 .contact-block {
   height: 50px;
-  margin-bottom: 150px; }
+  margin-bottom: 40px; }
   @media screen and (max-width: 768px) {
     .contact-block {
       margin-bottom: 40px; } }
 
-.contact-block .fas, .contact-block .far {
+.contact-block .fas, .contact-block .far{
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -561,7 +561,7 @@ top: 50px; }
     font-weight: bold; }
 
 .field {
-  width: 100%;
+  width: 60%;
   text-align: left;
   margin-top: 15px; }
 
@@ -569,7 +569,17 @@ input[type=text] {
   display: inline-block;
   width: 100%;
   padding: 5px;
-  height: 45px;
+  height: 35px;
+  font-size: 1.2em;
+  background: #f8f9fa;
+  border: 1px #a3a3a3 solid;
+  color: #a3a3a3; }
+
+input[type=tel] {
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  height: 35px;
   font-size: 1.2em;
   background: #f8f9fa;
   border: 1px #a3a3a3 solid;
@@ -586,11 +596,9 @@ textarea {
 
 #contact-submit {
   padding: 10px;
-  background: none;
-  border: 1px #a3a3a3 solid;
+  background:#d1c8c8;
   cursor: pointer;
-  font-size: 1.2em;
-  float: right; }
+  font-size: 1.2em;}
 
 /***********************************FOOTER STYLES***********************************/
 footer {
