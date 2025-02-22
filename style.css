@@ -567,7 +567,7 @@ top: 50px; }
 
 input[type=text] {
   display: inline-block;
-  width: 100%;
+  width: 110%;
   padding: 5px;
   height: 35px;
   font-size: 1.2em;
@@ -577,7 +577,7 @@ input[type=text] {
 
 input[type=tel] {
   display: inline-block;
-  width: 100%;
+  width: 110%;
   padding: 5px;
   height: 35px;
   font-size: 1.2em;
@@ -587,7 +587,7 @@ input[type=tel] {
 
 textarea {
   display: inline-block;
-  width: 100%;
+  width: 110%;
   padding: 5px;
   font-size: 1.2em;
   background: #f8f9fa;
