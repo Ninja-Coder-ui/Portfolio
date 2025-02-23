@@ -551,6 +551,7 @@ top: 50px; }
   border-radius: 50%;
   color: #454545;
   float: left; }
+  
 
 .contact-text {
   float: left;
@@ -567,6 +568,7 @@ top: 50px; }
 
 input[type=text] {
   display: inline-block;
+  border-radius: 15px;
   width: 110%;
   padding: 5px;
   height: 35px;
@@ -577,6 +579,7 @@ input[type=text] {
 
 input[type=tel] {
   display: inline-block;
+  border-radius: 15px;
   width: 110%;
   padding: 5px;
   height: 35px;
@@ -587,6 +590,7 @@ input[type=tel] {
 
 input[type=email] {
     display: inline-block;
+    border-radius: 15px;
     width: 110%;
     padding: 5px;
     height: 35px;
@@ -598,6 +602,7 @@ input[type=email] {
 
     textarea {
   display: inline-block;
+  border-radius: 15px;
   width: 110%;
   padding: 5px;
   font-size: 1.2em;
@@ -606,10 +611,11 @@ input[type=email] {
   color: #a3a3a3; }
 
 #contact-submit {
-  padding: 10px;
-  background:#d1c8c8;
+  padding: 5px;
+  background:#e1d4d4;
+  border-radius: 100px;
   cursor: pointer;
-  font-size: 1.2em;}
+  font-size: 1em;}
 
 /***********************************FOOTER STYLES***********************************/
 footer {
