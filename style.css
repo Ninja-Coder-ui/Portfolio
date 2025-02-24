@@ -569,49 +569,49 @@ top: 50px; }
 input[type=text] {
   display: inline-block;
   border-radius: 15px;
-  width: 110%;
+  width: 160%;
   padding: 5px;
   height: 35px;
-  font-size: 1.2em;
+  font-size: 1em;
   background: #f8f9fa;
-  border: 1px #a3a3a3 solid;
+  border: 1px #4988ac solid;
   color: #a3a3a3; }
 
 input[type=tel] {
   display: inline-block;
   border-radius: 15px;
-  width: 110%;
+  width: 160%;
   padding: 5px;
   height: 35px;
-  font-size: 1.2em;
+  font-size: 1em;
   background: #f8f9fa;
-  border: 1px #a3a3a3 solid;
+  border: 1px #4988ac solid;
   color: #a3a3a3; }
 
 input[type=email] {
     display: inline-block;
     border-radius: 15px;
-    width: 110%;
+    width: 160%;
     padding: 5px;
     height: 35px;
-    font-size: 1.2em;
+    font-size: 1em;
     background: #f8f9fa;
-    border: 1px #a3a3a3 solid;
+    border: 1px #4988ac solid;
     color: #a3a3a3; 
   }  
 
     textarea {
   display: inline-block;
   border-radius: 15px;
-  width: 110%;
+  width: 160%;
   padding: 5px;
-  font-size: 1.2em;
+  font-size: 1em;
   background: #f8f9fa;
-  border: 1px #a3a3a3 solid;
+  border: 1px #4988ac solid;
   color: #a3a3a3; }
 
 #contact-submit {
-  padding: 5px;
+  padding: 4px;
   background:#e1d4d4;
   border-radius: 100px;
   cursor: pointer;
