@@ -1,0 +1,211 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; }
+  
+  img {
+    width: 100%; 
+  }
+  
+  .container {
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px; }
+  
+  /***********************************UNIVERSAL STYLES***********************************/
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #454545; }
+  
+  @media screen and (max-width: 760px) {
+    .container {
+      padding-right: 25px;
+      padding-left: 25px; } }
+  
+  .section-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px; }
+  
+  .accent-text {
+    font-family: "Dancing Script", cursive;
+    color: #E52E2D; }
+  
+  .active {
+    color: #E52E2D; }
+  
+  .is-checked {
+    color: #E52E2D; }
+  
+  h2 {
+    margin-bottom: 20px; }
+  
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 10px; }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #a3a3a3; }
+  
+  ul {
+    list-style: none; }
+  
+  li {
+    display: inline-block; }
+  
+  a {
+    text-decoration: none; }
+
+/***********************************SCROLL BAR STYLES***********************************/
+/* width */
+::-webkit-scrollbar {
+    width: 5px; }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #a3a3a3;
+    border-radius: 10px; }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #E52E2D; }
+
+/***********************************HEADER STYLES***********************************/
+#main-header {
+    position: fixed;
+    max-height: 70px;
+    width: 100%;
+    padding: 20px 0 10px 0;
+    z-index: 900;
+    background: #fff;
+    border-bottom: 1px #E52E2D solid;
+    overflow: hidden; }
+    @media screen and (max-width: 760px) {
+      #main-header {
+        padding-top: 25px; } }
+  
+  .open-nav {
+    max-height: 400px !important; }
+    .open-nav .mobile-toggle {
+      -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      transform: rotate(-90deg); }
+  
+  .logo {
+    float: left;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 1;
+    font-size: 27pt;
+    font-weight: bold;
+    color: #E52E2D;
+    font-family: "Dancing Script", cursive; }
+    @media screen and (max-width: 760px) {
+      .logo {
+        float: none; } }
+  
+  #main-header nav {
+    width: 80%;
+    float: right; }
+    @media screen and (max-width: 760px) {
+      #main-header nav {
+        width: 100%; } }
+    #main-header nav ul {
+      float: right;
+      overflow: hidden;
+      list-style: none;
+      text-align: right; }
+      @media screen and (max-width: 760px) {
+        #main-header nav ul {
+          width: 100%;
+          float: left;
+          padding-top: 10px;
+          margin-bottom: 20px;
+          text-align: center; } }
+      #main-header nav ul li {
+        display: inline-block;
+        margin-left: 20px;
+        line-height: 1.5; }
+        @media screen and (max-width: 760px) {
+          #main-header nav ul li {
+            width: 100%;
+            padding: 10px 0;
+            margin: 0; } }
+      #main-header nav ul a {
+        color: #454545;
+        text-transform: uppercase;
+        font-size: 14px;
+        -webkit-transition: color 0.3s ease;
+        -o-transition: color 0.3s ease;
+        transition: color 0.3s ease; }
+      #main-header nav ul .active {
+        color: #E52E2D; }
+      #main-header nav ul a:hover {
+        color: #E52E2D; }
+  
+  .mobile-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    right: 22px;
+    top: 0;
+    width: 30px;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in; }
+    @media screen and (max-width: 760px) {
+      .mobile-toggle {
+        display: block; } }
+    .mobile-toggle span {
+      width: 30px;
+      height: 4px;
+      margin-bottom: 6px;
+      border-radius: 1000px;
+      background: #454545;
+      display: block; }
+  
+  .header-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 25px; }
+
+
+
+
+
+
+
+
+    /***********************************FOOTER STYLES***********************************/
+footer {
+    background: #111;
+    padding: 12px 0 12px 0;
+    text-align: center; }
+  
+  .link-header{
+    position: fixed;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    background: #454545;  
+    z-index: 9999;
+    line-height: 50px;
+    overflow: auto;
+  }
+  
+  .link-header a{
+    color: #fff;
+    
+  }
