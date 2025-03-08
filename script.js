@@ -42,6 +42,11 @@ $('.popup-gallery').magnificPopup({
   }
 });
 
+/*******************************************DISABLE RIGHT CLICK*******************************************/
+
+
+document.addEventListener('contextmenu', event => event.preventDefault());
+
 /*******************************************CAROUSEL IN MY CLIENTS*******************************************/
 
 $(document).ready(function(){

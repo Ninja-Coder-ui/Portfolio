@@ -34,6 +34,11 @@ var $num = $('.card-carousel .my-card').length;
     });
 
 
+/*******************************************DISABLE RIGHT CLICK*******************************************/
+
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+
     // Keyboard nav
     $('html body').keydown(function(e) {
         if (e.keyCode == 37) { // left
@@ -44,7 +49,7 @@ var $num = $('.card-carousel .my-card').length;
         }
     });
 
-
+/*******************************************MEDIA SLIDER*******************************************/
 
     // (function() {
     //     var imgLen = document.getElementsByClassName('.my-card');
