@@ -14,10 +14,9 @@
     aspect-ratio: 8/7;
   }
   
-  .container {
+  .container-media {
     margin: auto;
-    padding-top: 80px;
-    padding-bottom: 80px; }
+    padding-top: 120px;}
   
   /***********************************UNIVERSAL STYLES***********************************/
   body {
