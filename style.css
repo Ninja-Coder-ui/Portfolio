@@ -251,7 +251,7 @@ a {
   -moz-transition: all 200ms ease-in;
   -o-transition: all 200ms ease-in;
   transition: all 200ms ease-in; }
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 924px) {
     .mobile-toggle {
       display: block; } }
   .mobile-toggle span {
@@ -283,7 +283,7 @@ top: 50px; }
 
 .hero-content {
   position: absolute;
-  top: 53%;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
