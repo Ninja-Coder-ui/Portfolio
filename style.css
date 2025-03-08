@@ -413,6 +413,9 @@ top: 50px; }
   }
 }
 
+h5{
+  color: #b89c9c;
+}
 
 /***********************************ABOUT STYLES***********************************/
 .about-text {
@@ -493,7 +496,7 @@ top: 50px; }
   width: 79%; }
 
 /***********************************SERVICES STYLES***********************************/
-#services {
+#services{
   background: #f8f9fa; }
 
 .service-block {
@@ -708,6 +711,8 @@ input[type=email] {
   border-radius: 100px;
   cursor: pointer;
   font-size: 1em;}
+
+/* --------------------------------------ARCHIVMENT SECTION-------------------------------------- */
 
 /***********************************FOOTER STYLES***********************************/
 footer {
