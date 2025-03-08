@@ -146,8 +146,6 @@ particlesJS("particles-js", {"particles":{"number":{"value":300,"density":{"enab
 
 
 /***********************DISABLE PRINT PAGE************/
-
-HTML CSS JS Result Skip Results Iframe
  document.addEventListener("keyup", function (e) {
     var keyCode = e.keyCode ? e.keyCode : e.which;
             if (keyCode == 44) {
