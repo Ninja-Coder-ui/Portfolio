@@ -16,7 +16,7 @@
   
   .container-media {
     margin: auto;
-    padding-top: 120px;}
+    padding-top: 90px;}
   
   /***********************************UNIVERSAL STYLES***********************************/
   body {
@@ -183,76 +183,91 @@
 
 
 /*******************************************MEDIA IMAGE*******************************************/
-    
 
-  .section-title-media {
-    font-size: 36px;
-    text-align: center;
-    }
+.section-title-media {
+  font-size: 36px;
+  text-align: center;
+  }
 
-    .carousel {
-      width: 100%;
+  .carousel {
+    width: 100%;
+    display: flex;
+    /* padding-top: 60px; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Quicksand", sans-serif;
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+    .card-carousel {
       display: flex;
-      padding-top: 60px;
       align-items: center;
       justify-content: center;
-      flex-direction: column;
-      font-family: "Quicksand", sans-serif;
-      overflow-x: hidden;
       position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 500px;
     }
     
-      .card-carousel {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;}
-    
-        .my-card {
-          font-size: large;
-          font-weight: bold;
-          color: #818e3f;
-          height: 23rem;
-          width: 290px;
-          position: relative;
-          z-index: 1;
-          -webkit-transform: scale(0.6) translateY(-2rem);
-          transform: scale(0.6) translateY(-2rem);
-          opacity: 0;
-          cursor: pointer;
-          pointer-events: none;
-          transition: 1s;
-        }
-    
-        .my-card.active {
-          z-index: 3;
-          -webkit-transform: scale(1) translateY(0) translateX(0);
-          transform: scale(1) translateY(0) translateX(0);
-          opacity: 1;
-          pointer-events: auto;
-          transition: 1s;
-        }
-    
-        .my-card.prev,
-        .my-card.next {
-          z-index: 2;
-          opacity: 0.45;
-          pointer-events: auto;
-          transition: 1s;
-        }
-    
-        .my-card.prev {
-          -webkit-transform: scale(0.8) translateY(-1rem) translateX(40rem);
-          transform: scale(0.8) translateY(-1rem) translateX(40rem);
-        }
-    
-        .my-card.next {
-          -webkit-transform: scale(0.8) translateY(-1rem) translateX(-40rem);
-          transform: scale(0.8) translateY(-1rem) translateX(-40rem);
-        }
-      
+      .my-card {
+        font-size:10px;
+        font-weight: bold;
+        color: #295870;
+        position: absolute;
+        width: 200px;
+        height: auto;
+        transition: all 1s ease-in-out;
+        opacity: 0;
+        transform: scale(1);
+        z-index: 0;
+        text-align: center
+    }
 
+    .my-card.active {
+        opacity: 1;
+        transform: scale(2) translateX(0);
+        z-index: 2;
+    }
+    
+    .my-card.prev {
+        opacity: 0.45;
+        transform: scale(1) translateX(-15rem);
+        z-index: 1;
+    }
+    
+    .my-card.next {
+        opacity: 0.45;
+        transform: scale(1) translateX(15rem);
+        z-index: 1;
+    }
+  
+/* Media Query for Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+.card-carousel {
+    height: 400px; /* Reduce height for mobile */
+}
 
+.my-card {
+    width: 150px; /* Reduce card width for mobile */
+}
+
+.my-card.active {
+    transform: scale(1.5) translateX(0); /* Reduce scale for mobile */
+    font-size: 16px; /* Reduce font size for mobile */
+}
+
+.my-card.prev {
+    transform: scale(0.8) translateX(-200px); /* Reduce movement for mobile */
+    font-size: 12px; /* Reduce font size for mobile */
+}
+
+.my-card.next {
+    transform: scale(0.8) translateX(200px); /* Reduce movement for mobile */
+    font-size: 12px; /* Reduce font size for mobile */
+}
+}
     /***********************************FOOTER STYLES***********************************/
 footer {
     background: #111;
