@@ -1,42 +1,27 @@
 var $num = $('.card-carousel .my-card').length;
-    var $even = $num / 2;
-    var $odd = ($num + 1) / 2;
+var $currentIndex = 0;
 
-    if ($num % 2 == 0) {
-        $('.card-carousel .my-card:nth-child(' + $even + ')').addClass('active');
-        $('.card-carousel .my-card:nth-child(' + $even + ')').prev().addClass('prev');
-        $('.card-carousel .my-card:nth-child(' + $even + ')').next().addClass('next');
-    } else {
-        $('.card-carousel .my-card:nth-child(' + $odd + ')').addClass('active');
-        $('.card-carousel .my-card:nth-child(' + $odd + ')').prev().addClass('prev');
-        $('.card-carousel .my-card:nth-child(' + $odd + ')').next().addClass('next');
-    }
+function initializeCards() {
+    $('.card-carousel .my-card').removeClass('active prev next');
+    $('.card-carousel .my-card').eq($currentIndex).addClass('active');
+    $('.card-carousel .my-card').eq(($currentIndex - 1 + $num) % $num).addClass('prev');
+    $('.card-carousel .my-card').eq(($currentIndex + 1) % $num).addClass('next');
+}
 
-    $('.card-carousel .my-card').on('click', function() {
-        if ($('.card-carousel').is(':animated')) {
-            return;
-        }
+function rotateCards() {
+    $currentIndex = ($currentIndex + 1) % $num;
+    $('.card-carousel .my-card').removeClass('active prev next');
+    $('.card-carousel .my-card').eq($currentIndex).addClass('active');
+    $('.card-carousel .my-card').eq(($currentIndex - 1 + $num) % $num).addClass('prev');
+    $('.card-carousel .my-card').eq(($currentIndex + 1) % $num).addClass('next');
+}
 
-        var $slide = $('.card-carousel .active').width();
-        
-        if ($(this).hasClass('next')) {
-            $('.card-carousel').animate({left: '-=' + $slide});
-        } else if ($(this).hasClass('prev')) {
-            $('.card-carousel').animate({left: '+=' + $slide});
-        }
-        
-        $(this).removeClass('prev next');
-        $(this).siblings().removeClass('prev active next');
-        
-        $(this).addClass('active');
-        $(this).prev().addClass('prev');
-        $(this).next().addClass('next');
-    });
-
+initializeCards();
+setInterval(rotateCards, 2000);
 
 /*******************************************DISABLE RIGHT CLICK*******************************************/
 
-    document.addEventListener('contextmenu', event => event.preventDefault());
+document.addEventListener('contextmenu', event => event.preventDefault());
 
 
     // Keyboard nav
