@@ -1,1 +1,1 @@
-# Portfolio [click here..](https://github.com/satyamrai0510/Portfolio_Raj.git)
+# Portfolio [click here..](https://satyamrai0510.github.io/Portfolio_Raj/)
