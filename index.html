@@ -14,8 +14,9 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Dancing+Script|Roboto'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css'><link rel="stylesheet" href="./style.css">
-<link rel="stylesheet" href="style-switcher.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css'>
+<link rel="stylesheet" href="./style.css">
+<link rel="icon" type="image/x-icon" href="/img/1949889-200.png">
 
 </head>
 <body>
@@ -33,7 +34,7 @@
 <div>
     <header id="main-header">
         <div class="header-wrapper">
-            <a class="logo" href="#">Ninja_Coder</a>
+            <a class="logo" href="https://ninjacoder.vercel.app/">Ninja_Coder</a>
     
             <div class="mobile-toggle">
                 <span></span>
@@ -349,67 +350,70 @@
         <div class="section-title">
             <h1>Let's <span class="accent-text">Connect</span></h1>
         </div>
-        
-        <div class="row center-xs center-sm center-md center-lg">
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <div class="contact-info">
-                    
-                    <!-- <div class="contact-block"> 
-                        <i class="fas fa-mobile-alt"></i>
-                        <div class="contact-text">
-                            <p>Call</p>
-                            <p>+91-7631796390</p>
-                        </div>
-                    </div>  
-                    </div> 
-        
-                    <div class="contact-block">
-                        <i class="far fa-envelope"></i>
-                        <div class="contact-text">
-                            <p>Email</p>
-                            <p>ninja.coder.psy@gmail.com</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-block">
-                        <i class="fas fa-location-arrow"></i>
-                        <div class="contact-text">
-                            <p>Address</p>
-                            <p>Shadipur, New Delhi, India - 110008</p>
-                        </div>
-                    </div>
+        <div class="background">
+            <div class="container-form">
+              <div class="screen">
+                <div class="screen-header">
+                  <div class="screen-header-left">
+                    <div class="screen-header-button close"></div>
+                    <div class="screen-header-button maximize"></div>
+                    <div class="screen-header-button minimize"></div>
+                  </div>
+                  <div class="screen-header-right">
+                    <div class="screen-header-ellipsis"></div>
+                    <div class="screen-header-ellipsis"></div>
+                    <div class="screen-header-ellipsis"></div>
+                  </div>
                 </div>
-            </div> -->
-            
-            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                <form id="contact-form" onsubmit="submitForm(); return false;" action="https://api.web3forms.com/submit" method="post" name="EmailForm">
+                <div class="screen-body">
+                  <div class="screen-body-item left">
+                    <div class="app-title">
+                      <span>SEND</span>
+                      <span>YOUR QUERY</span>
+                    </div>
+                    <!-- <div class="app-contact">CONTACT INFO : +91 7631796390</div> -->
+                  </div>
+                  
+                  <form id="contact-form" onsubmit="submitForm(); return false;" action="https://api.web3forms.com/submit" method="post" name="EmailForm">
                     <input type="hidden" name="access_key" value="5f97ca46-f148-4945-8aff-5707a7294e2d">
-                    <div class="field">
-                        Name<br>
-                        <input type="text" id="name" placeholder="Enter your name" name="Name"required>
+                    <div class="screen-body-item">
+                      <div class="app-form">
+                        <div class="app-form-group">
+                          <input class="app-form-control" placeholder="NAME" name="Name" required>
+                        </div>
+                        <div class="app-form-group">
+                          <input class="app-form-control" type="email" placeholder="EMAIL" name="Email" required>
+                        </div>
+                        <div class="app-form-group">
+                          <input class="app-form-control" placeholder="CONTACT NO" name="Contact" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                        </div>
+                        <div class="app-form-group message">
+                          <input class="app-form-control" placeholder="MESSAGE" name="Message"required>
+                        </div>
+                        <div class="app-form-group buttons">
+                          <!-- <button class="app-form-button">CANCEL</button> -->
+                          <button class="app-form-button">SUBMIT</button>
+                        </div>
+                      </div>
                     </div>
-                    <div class="field">
-                        Email<br>
-                        <input type="email" id="email" placeholder="abc@gmail.com" name="Email"required>
-                    </div>
-                    <div class="field">
-                        Contact<br>
-                        <input type="tel" id="contact" placeholder="9999999999" name="Contact" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
-                    </div>
-                    <div class="field">
-                        Requirments<br>
-                        <input type="text" id="subject" placeholder="your are looking for" name="Requirments"required>
-                    </div>
-                    <div class="field">
-                        Describe<br>
-                        <textarea id="message" rows="10" cols="75"  placeholder="Describe your Requirments and details about Project" name="Discription"required></textarea>
-                    </div>
-                    <div class="field">
-                        <input type="submit" id="contact-submit" value="Submit Form"><span id="status"></span>
-                    </div>
-                </form>
+                  </form>
+                </div>
+              </div>
+              <div class="credits">
+                powered by
+                <a class="credits-link" href="https://dribbble.com/shots/2666271-Contact" target="_blank">
+                  <svg class="dribbble" viewBox="0 0 200 200">
+                    <g stroke="#002B33" fill="none">
+                      <circle cx="100" cy="100" r="90" stroke-width="20"></circle>
+                      <path d="M62.737004,13.7923523 C105.08055,51.0454853 135.018754,126.906957 141.768278,182.963345" stroke-width="20"></path>
+                      <path d="M10.3787186,87.7261455 C41.7092324,90.9577894 125.850356,86.5317271 163.474536,38.7920951" stroke-width="20"></path>
+                      <path d="M41.3611549,163.928627 C62.9207607,117.659048 137.020642,86.7137169 189.041451,107.858103" stroke-width="20"></path>
+                    </g>
+                  </svg>
+                  Ninja Coder
+                </a>
+              </div>
             </div>
-        
         </div>
     </div>
 </section>
@@ -438,8 +442,8 @@
 <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/ScrollMagic.min.js'></script><script  src="./script.js"></script>
-<script src="style-switcher.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/ScrollMagic.min.js'></script>
+<script  src="./script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
 
 </body>
