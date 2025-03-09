@@ -345,8 +345,14 @@ top: 50px; }
   border: 3px #dc3737 solid; }
   @media screen and (max-width: 768px) {
     .hero-content img {
+      margin-top: 3rem;
       width: 200px;
       height: 200px; } }
+
+      @media screen and (max-height: 800px) {
+        .hero-content img {
+          width: 200px;
+          height: 200px; } }
 
 
 /***********************************ARCHIVMENT BOTTON STYLES***********************************/
@@ -625,7 +631,7 @@ h5{
     margin-top: 15px; }
 
 /***********************************CONTACT STYLES***********************************/
-button, input {
+button, input, textarea {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   letter-spacing: 1.4px;
@@ -766,8 +772,8 @@ button, input {
   border-bottom: 1px solid #666;
   color: #ddd;
   font-size: 14px;
-  text-transform: uppercase;
-  outline: none;
+  text-transform: capitalize;
+  /* outline: none; */
   transition: border-color .2s;
 }
 

@@ -17,7 +17,7 @@ function rotateCards() {
 }
 
 initializeCards();
-setInterval(rotateCards, 2000);
+setInterval(rotateCards, 4000);
 
 
 /*******************************************DISABLE RIGHT CLICK*******************************************/
