@@ -772,7 +772,7 @@ button, input, textarea {
   border-bottom: 1px solid #666;
   color: #ddd;
   font-size: 14px;
-  text-transform: capitalize;
+  text-transform: none;
   /* outline: none; */
   transition: border-color .2s;
 }
