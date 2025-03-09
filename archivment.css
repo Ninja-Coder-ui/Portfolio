@@ -244,7 +244,33 @@
           z-index: 1;
           font-size: 15px;
       }
-      
+    
+/* Media Query for Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .card-carousel {
+      height: 400px; /* Reduce height for mobile */
+  }
+
+  .my-card {
+      width: 150px; /* Reduce card width for mobile */
+  }
+
+  .my-card.active {
+      transform: scale(1.5) translateX(0); /* Reduce scale for mobile */
+      font-size: 16px; /* Reduce font size for mobile */
+  }
+
+  .my-card.prev {
+      transform: scale(0.8) translateX(-200px); /* Reduce movement for mobile */
+      font-size: 12px; /* Reduce font size for mobile */
+  }
+
+  .my-card.next {
+      transform: scale(0.8) translateX(200px); /* Reduce movement for mobile */
+      font-size: 12px; /* Reduce font size for mobile */
+  }
+}
+    
     /***********************************FOOTER STYLES***********************************/
 footer {
     background: #111;
