@@ -1,94 +1,90 @@
-# Portfolio Website
+# Ninja Coder Portfolio
 
-A modern, responsive portfolio website showcasing my skills, projects, and achievements. Built with HTML, CSS, and JavaScript, featuring a clean and professional design.
+A modern, responsive portfolio website showcasing my skills, projects, and achievements. Built with HTML, CSS, and JavaScript.
 
 ## 🌟 Features
 
 - Responsive design that works on all devices
-- Modern and clean UI/UX
-- Interactive sections for skills, projects, and achievements
-- Text-to-Speech functionality for accessibility
-- Smooth scrolling and animations
-- Dark/Light mode support
-- Contact form integration
+- Modern and clean user interface
+- Smooth scrolling navigation
+- Interactive sections including:
+  - Hero section
+  - About section
+  - Services section
+  - Projects showcase
+  - Achievements gallery
+  - Contact form
+- Animated elements and transitions
+- Mobile-friendly navigation menu
+- Integration with social media platforms
 
 ## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
-- Node.js (Backend)
-- Express.js
-- GitHub Pages (Deployment)
-
-## 🚀 Live Demo
-
-Visit the live portfolio at: [https://ninja-coder-ui.github.io/Portfolio-2.0/](https://ninja-coder-ui.github.io/Portfolio-2.0/)
+- Font Awesome Icons
+- Owl Carousel
+- Magnific Popup
+- Google Fonts (Dancing Script, Roboto)
 
 ## 📁 Project Structure
 
 ```
-Portfolio4/
-├── frontend/
-│   ├── css/
-│   ├── js/
-│   ├── img/
-│   ├── Achievements/
-│   └── index.html
-├── backend/
-│   ├── server.js
-│   └── package.json
-└── .github/
-    └── workflows/
-        └── deploy.yml
+Portfolio/
+├── index.html          # Main HTML file
+├── style.css          # Main stylesheet
+├── script.js          # Main JavaScript file
+├── archivment.html    # Achievements page
+├── archivment.css     # Achievements page styles
+├── archivment.js      # Achievements page scripts
+├── img/              # Image assets
+├── doc/              # Documentation
+└── Achievements/     # Achievement-related content
 ```
 
 ## 🚀 Getting Started
 
-### Prerequisites
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ninja-Coder-ui/Portfolio.git
+   ```
 
-- Node.js (v14 or higher)
-- npm or yarn package manager
+2. Navigate to the project directory:
+   ```bash
+   cd Portfolio
+   ```
 
-### Installation
+3. Open `index.html` in your web browser to view the portfolio.
 
-1. Clone the repository
-```bash
-git clone https://github.com/Ninja-Coder-ui/Portfolio-2.0.git
-cd Portfolio-2.0
-```
+## 🌐 Live Demo
 
-2. Install backend dependencies
-```bash
-cd backend
-npm install
-```
+Visit the live portfolio at: [https://ninjacoder.vercel.app/](https://ninjacoder.vercel.app/)
 
-3. Start the backend server
-```bash
-npm run dev
-```
+## 📱 Responsive Design
 
-4. Open `frontend/index.html` in your browser or use a local server
-
-## 🔧 Configuration
-
-The portfolio can be customized by:
-- Modifying the content in `frontend/index.html`
-- Updating styles in `frontend/css/`
-- Adding new features in `frontend/js/`
-- Updating images in `frontend/img/`
+The portfolio is fully responsive and optimized for:
+- Desktop devices
+- Tablets
+- Mobile phones
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📝 License
+## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 📧 Contact
+## 👤 Author
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+Raj Raushan
+- GitHub: [@Ninja-Coder-ui](https://github.com/Ninja-Coder-ui)
+- Portfolio: [https://ninjacoder.vercel.app/](https://ninjacoder.vercel.app/)
 
-Project Link: [https://github.com/Ninja-Coder-ui/Portfolio-2.0](https://github.com/Ninja-Coder-ui/Portfolio-2.0)
+## 🙏 Acknowledgments
+
+- Font Awesome for icons
+- Owl Carousel for the carousel functionality
+- Google Fonts for typography
+- All contributors and supporters
