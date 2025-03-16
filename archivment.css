@@ -45,11 +45,22 @@
   
   h2 {
     margin-bottom: 20px; }
+
+  h1{
+    color: #000000;
+  }
   
+
   h3 {
     margin-top: 20px;
     margin-bottom: 10px; }
+
+    [data-theme="dark"] h3, h1 {
+      color: #ffffff;
+    }
   
+
+
   p {
     font-size: 16px;
     line-height: 1.6;
@@ -225,6 +236,11 @@
         text-align: center
     }
 
+    [data-theme="dark"] .my-card {
+      color: #91a4b5;
+    }
+    
+
     .my-card.active {
         opacity: 1;
         transform: scale(2) translateX(0);
@@ -333,9 +349,14 @@ footer {
 .row_box label {
     font-size: 1.2rem;
     font-weight: bold;
-    color: var(--white_color);
+    color: #000000;
     margin-bottom: 0.313rem;
 }
+
+[data-theme="dark"] .row_box label{
+  color: #ffffff;
+}
+
 .text_to_Speech :where(textarea, select, button) {
     outline: none;
     width: 100%;
@@ -364,6 +385,12 @@ footer {
     border: 0.125rem solid var(--orange_color);
     box-shadow: 0rem 0rem 0.625rem 1rem var(--box_shadow);
 }
+
+[data-theme="dark"] select {
+  color: #817b2d;
+}
+
+
 .row_box select {
     font-size: 1rem;
     background: none;
