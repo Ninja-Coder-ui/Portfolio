@@ -46,16 +46,11 @@
   h2 {
     margin-bottom: 20px; }
 
-  h1{
-    color: #000000;
-  }
-  
-
   h3 {
     margin-top: 20px;
     margin-bottom: 10px; }
 
-    [data-theme="dark"] h3, h1 {
+    [data-theme="dark"] h3 {
       color: #ffffff;
     }
   
