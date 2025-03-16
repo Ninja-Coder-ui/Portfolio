@@ -1,14 +1,36 @@
+<<<<<<< HEAD
 # Personal Portfolio Website 🚀
 
 A modern, responsive portfolio website showcasing my professional journey, technical skills, and creative projects. Built with cutting-edge web technologies and featuring an intuitive dark/light theme switcher, interactive elements, and seamless user experience.
+=======
+# Ninja Coder Portfolio
+
+A modern, responsive portfolio website showcasing my skills, projects, and achievements. Built with HTML, CSS, and JavaScript.
+>>>>>>> 427b1a571fee181d06d2badecbdb2430c49fb153
 
 ## ✨ Key Features
 
+<<<<<<< HEAD
 - **Advanced Theme System**: 
   - Dynamic dark/light mode switching with floating button
   - Seamless theme transitions across all components
   - Theme persistence across sessions
   - Consistent styling in both modes
+=======
+- Responsive design that works on all devices
+- Modern and clean user interface
+- Smooth scrolling navigation
+- Interactive sections including:
+  - Hero section
+  - About section
+  - Services section
+  - Projects showcase
+  - Achievements gallery
+  - Contact form
+- Animated elements and transitions
+- Mobile-friendly navigation menu
+- Integration with social media platforms
+>>>>>>> 427b1a571fee181d06d2badecbdb2430c49fb153
 
 - **Interactive Portfolio**:
   - Dynamic project filtering system
@@ -17,6 +39,7 @@ A modern, responsive portfolio website showcasing my professional journey, techn
   - Lightbox image preview
   - Responsive grid layout
 
+<<<<<<< HEAD
 - **Professional Sections**:
   - Animated hero section with Particle.js
   - Detailed about section with skill progress bars
@@ -34,6 +57,15 @@ A modern, responsive portfolio website showcasing my professional journey, techn
   - Form validation and submission handling
 
 ## 🛠️ Technology Stack
+=======
+- HTML5
+- CSS3
+- JavaScript
+- Font Awesome Icons
+- Owl Carousel
+- Magnific Popup
+- Google Fonts (Dancing Script, Roboto)
+>>>>>>> 427b1a571fee181d06d2badecbdb2430c49fb153
 
 ### Frontend
 - HTML5 (Semantic markup)
@@ -41,6 +73,7 @@ A modern, responsive portfolio website showcasing my professional journey, techn
 - JavaScript (ES6+)
 - jQuery (DOM manipulation)
 
+<<<<<<< HEAD
 ### Libraries & Plugins
 - Particle.js (Background animation)
 - ScrollMagic (Scroll animations)
@@ -50,6 +83,20 @@ A modern, responsive portfolio website showcasing my professional journey, techn
 - Google Fonts (Typography)
 - Web3Forms (Form handling)
 - Web Speech API (Text-to-Speech)
+=======
+```
+Portfolio/
+├── index.html          # Main HTML file
+├── style.css          # Main stylesheet
+├── script.js          # Main JavaScript file
+├── archivment.html    # Achievements page
+├── archivment.css     # Achievements page styles
+├── archivment.js      # Achievements page scripts
+├── img/              # Image assets
+├── doc/              # Documentation
+└── Achievements/     # Achievement-related content
+```
+>>>>>>> 427b1a571fee181d06d2badecbdb2430c49fb153
 
 ### Development Tools
 - Git (Version control)
@@ -57,6 +104,7 @@ A modern, responsive portfolio website showcasing my professional journey, techn
 - Chrome DevTools (Testing)
 - Vercel (Hosting)
 
+<<<<<<< HEAD
 ## 📱 Website Sections
 
 ### 1. Home (Hero Section)
@@ -185,11 +233,36 @@ vercel deploy
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+=======
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ninja-Coder-ui/Portfolio.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd Portfolio
+   ```
+
+3. Open `index.html` in your web browser to view the portfolio.
+
+## 🌐 Live Demo
+
+Visit the live portfolio at: [https://ninjacoder.vercel.app/](https://ninjacoder.vercel.app/)
+
+## 📱 Responsive Design
+
+The portfolio is fully responsive and optimized for:
+- Desktop devices
+- Tablets
+- Mobile phones
+>>>>>>> 427b1a571fee181d06d2badecbdb2430c49fb153
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
+<<<<<<< HEAD
 ## 💫 Acknowledgments
 
 Special thanks to:
@@ -201,3 +274,21 @@ Special thanks to:
 
 ---
 <p align="center">Designed & Developed with ❤️ by Raj Raushan (Ninja Coder)</p>
+=======
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👤 Author
+
+Raj Raushan
+- GitHub: [@Ninja-Coder-ui](https://github.com/Ninja-Coder-ui)
+- Portfolio: [https://ninjacoder.vercel.app/](https://ninjacoder.vercel.app/)
+
+## 🙏 Acknowledgments
+
+- Font Awesome for icons
+- Owl Carousel for the carousel functionality
+- Google Fonts for typography
+- All contributors and supporters
+>>>>>>> 427b1a571fee181d06d2badecbdb2430c49fb153
