@@ -25,13 +25,14 @@ A modern, responsive portfolio website showcasing my professional journey, techn
   - Functional contact form with Web3Forms integration
   - Text-to-Speech converter with multiple voices
 
-- **Technical Features**:
-  - Fully responsive across all devices
-  - Progressive loading
-  - SEO optimized
-  - Cross-browser compatible
-  - Optimized performance
-  - Form validation and submission handling
+- **Performance Optimizations**:
+  - Lazy loading for images and scripts
+  - Progressive component initialization
+  - Optimized resource loading
+  - Reduced initial page load time
+  - Efficient DOM manipulation
+  - Debounced scroll events
+  - Minimized render-blocking resources
 
 ## 🛠️ Technology Stack
 
@@ -51,125 +52,33 @@ A modern, responsive portfolio website showcasing my professional journey, techn
 - Web3Forms (Form handling)
 - Web Speech API (Text-to-Speech)
 
+### Performance Tools
+- Lazy Loading
+- Resource Prioritization
+- Progressive Loading
+- Script Optimization
+- Image Optimization
+- CSS Minification
+- Cache Management
+
 ### Development Tools
 - Git (Version control)
 - VS Code (Code editor)
 - Chrome DevTools (Testing)
 - Vercel (Hosting)
 
-## �� Project Structure
-
-## 📱 Website Sections
-
-### 1. Home (Hero Section)
-- Interactive particle background
-- Professional introduction
-- Downloadable resume
-- Social media links
-
-### 2. About
-- Personal biography
-- Skill progress bars
-- Educational background
-- Professional achievements
-
-### 3. Services
-- Web Development
-- Web Design
-- Responsive Design
-- Documentation
-- Clean Code Practices
-- Technical Support
-
-### 4. Projects Portfolio
-- Filterable categories:
-  - Personal Projects
-  - Mathematical Tools
-  - Payment Integration
-  - Entertainment Apps
-
-### 5. Achievements
-- Professional certifications
-- Course completions
-- Awards and recognition
-- Interactive certificate carousel
-
-### 6. Contact
-- Professional contact form with Web3Forms
-- Real-time form validation
-- Social media integration
-- Direct email option
-
-### 7. Text-to-Speech
-- Multiple voice options
-- Language support
-- Real-time conversion
-- Download capability
-
-## 💻 Installation & Setup
-
-1. **Clone Repository**
-```bash
-git clone https://github.com/Ninja-Coder-ui/portfolio.git
-cd portfolio
-```
-
-2. **Development Setup**
-```bash
-# Using Python Server
-python -m http.server 8000
-
-# Using Node.js
-npx serve
-```
-
-3. **Production Deployment**
-```bash
-# Deploy to Vercel
-vercel deploy
-```
-
-## 🎨 Theme Configuration
-
-### Light Theme Variables
-```css
-:root {
-    --primary-color: #E52E2D;
-    --text-color: #454545;
-    --bg-color: #fff;
-    --card-bg: #fff;
-    --border-color: #a3a3a3;
-}
-```
-
-### Dark Theme Variables
-```css
-[data-theme="dark"] {
-    --primary-color: #ff4444;
-    --text-color: #fff;
-    --bg-color: #121212;
-    --card-bg: #1e1e1e;
-    --border-color: #333;
-}
-```
-
-## 📱 Responsive Breakpoints
-
-- **Large Desktop**: 1200px+
-- **Desktop**: 1024px - 1199px
-- **Tablet Landscape**: 768px - 1023px
-- **Tablet Portrait**: 481px - 767px
-- **Mobile**: < 480px
-
 ## 🚀 Latest Updates
 
-- Added floating theme switcher
-- Implemented Web3Forms integration
-- Enhanced dark mode compatibility
-- Added Text-to-Speech functionality
+- Implemented performance optimizations
+- Added lazy loading for resources
+- Optimized script loading and initialization
+- Removed duplicate dependencies
+- Enhanced loading speed
 - Improved mobile responsiveness
-- Fixed form submission issues
-- Enhanced UI/UX elements
+- Added progressive component loading
+- Enhanced error handling
+- Optimized image loading
+- Improved overall site performance
 
 ## 🔗 Important Links
 
@@ -200,6 +109,14 @@ Special thanks to:
 - Google Fonts
 - Web3Forms team
 - All contributors and supporters
+
+## 📊 Performance Metrics
+
+- Improved page load time
+- Enhanced First Contentful Paint (FCP)
+- Optimized Largest Contentful Paint (LCP)
+- Reduced Time to Interactive (TTI)
+- Better Core Web Vitals scores
 
 ---
 <p align="center">Designed & Developed with ❤️ by Raj Raushan (Ninja Coder)</p>
