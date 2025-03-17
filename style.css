@@ -246,8 +246,8 @@ a {
       [data-theme="dark"] #main-header nav ul .active {
         color: #E52E2D; }
 
-        [data-theme="dark"] #main-header nav ul a:hover {
-          color: #E52E2D; }
+      [data-theme="dark"] #main-header nav ul a:hover {
+        color: #E52E2D; }
       
 
 .mobile-toggle {
