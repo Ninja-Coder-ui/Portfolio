@@ -242,6 +242,12 @@ a {
       [data-theme="dark"] #main-header nav ul a {
         color: #ffffff;
       }
+
+      [data-theme="dark"] #main-header nav ul .active {
+        color: #E52E2D; }
+
+        [data-theme="dark"] #main-header nav ul a:hover {
+          color: #E52E2D; }
       
 
 .mobile-toggle {
@@ -361,7 +367,7 @@ top: 50px; }
 
 
 /***********************************ARCHIVMENT BOTTON STYLES***********************************/
-.btn-shine {
+/* .btn-shine {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -426,7 +432,7 @@ top: 50px; }
 
 h5{
   color: #b89c9c;
-}
+} */
 
 /***********************************ABOUT STYLES***********************************/
 .about-text {
