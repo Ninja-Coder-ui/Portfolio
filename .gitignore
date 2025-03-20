@@ -1,6 +1,0 @@
-node_modules/
-.env
-temp/
-*.mp3
-.DS_Store 
-.vercel
