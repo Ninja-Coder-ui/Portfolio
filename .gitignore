@@ -3,3 +3,4 @@ node_modules/
 temp/
 *.mp3
 .DS_Store 
+.vercel
