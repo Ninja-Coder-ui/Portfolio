@@ -1,28 +1,20 @@
 {
-  "name": "portfolio",
+  "name": "tts-server",
   "version": "1.0.0",
-  "description": "A modern, responsive portfolio website showcasing my professional journey, technical skills, and creative projects. Built with cutting-edge web technologies and featuring an intuitive dark/light theme switcher, interactive elements, and seamless user experience.",
+  "description": "Text-to-Speech Server",
   "main": "server.js",
-  "directories": {
-    "doc": "doc"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ninja-Coder-ui/Portfolio.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ninja-Coder-ui/Portfolio/issues"
-  },
-  "homepage": "https://github.com/Ninja-Coder-ui/Portfolio#readme",
   "dependencies": {
-    "express": "^4.21.2",
+    "express": "^4.18.2",
     "node-gtts": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
