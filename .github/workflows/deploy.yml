@@ -1,4 +1,5 @@
 name: Deploy to Vercel
+
 on:
   push:
     branches:
@@ -7,15 +8,22 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    name: Deploy
     steps:
       - uses: actions/checkout@v4
-      
-      - name: Deploy to Vercel
-        uses: BetaHuhn/deploy-to-vercel-action@v1
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-          PRODUCTION: true 
+          branch: vercel-deploy
+          folder: .
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy to Vercel
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          working-directory: ./
+          vercel-args: '--prod' 
