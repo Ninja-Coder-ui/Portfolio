@@ -1,7 +1,7 @@
 {
     "version": 2,
     "outputDirectory": ".",
-    "buildCommand": "npm run build",
+    "buildCommand": "npm run install",
     "rewrites": [
       {
         "source": "/api/(.*)",
