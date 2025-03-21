@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(express.static('.')); // Serve static files from root directory
 
-app.get('/', (req, res) => {
+app.get('https://ninjacoder.vercel.app/', (req, res) => {
     res.sendFile(path.join(__dirname, 'archivment.html'));
   });
 
