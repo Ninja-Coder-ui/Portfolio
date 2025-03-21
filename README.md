@@ -67,6 +67,12 @@ A modern, responsive portfolio website showcasing my professional journey, techn
 - Chrome DevTools (Testing)
 - Vercel (Hosting)
 
+### Backend & Deployment
+- Node.js (Server runtime)
+- Express.js (Server framework)
+- Vercel (Hosting & Serverless functions)
+- Node-GTTS (Text-to-Speech)
+
 ## 🚀 Latest Updates
 
 - Implemented performance optimizations
@@ -79,6 +85,39 @@ A modern, responsive portfolio website showcasing my professional journey, techn
 - Enhanced error handling
 - Optimized image loading
 - Improved overall site performance
+
+## 🚀 Deployment
+
+### Prerequisites
+- Node.js >= 14.0.0
+- npm or yarn
+- Git
+
+### Local Development
+```bash
+# Clone the repository
+git clone https://github.com/Ninja-Coder-ui/Portfolio.git
+
+# Navigate to project directory
+cd Portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+### Vercel Deployment
+The project is configured for automatic deployment on Vercel:
+
+1. Connect your GitHub repository to Vercel
+2. Vercel will automatically detect and deploy your application
+3. Server will automatically start through the configured API routes
+
+### API Endpoints
+- `/api/health` - Health check endpoint
+- `/api/tts` - Text-to-Speech conversion endpoint
 
 ## 🔗 Important Links
 
