@@ -7,10 +7,6 @@ const app = express();
 app.use(express.json());
 app.use(express.static('.')); // Serve static files from root directory
 
-app.get('https://ninjacoder.vercel.app/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'archivment.html'));
-  });
-
 // TTS endpoint
 app.post('/api/tts', (req, res) => {
     const { text, lang = 'en' } = req.body;
