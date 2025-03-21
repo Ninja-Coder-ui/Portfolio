@@ -8,7 +8,10 @@
   },
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "build": "npm install && npm run postbuild",
+    "postbuild": "echo Build completed",
+    "vercel-build": "npm run build"
   },
   "engines": {
     "node": ">=14.0.0"
